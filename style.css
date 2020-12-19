@@ -1,0 +1,25 @@
+body{
+	background-color: #00AEFF; 
+}
+.center{
+	justify-content: center;
+	display: flex;
+	margin: 0 auto;
+	border: 1px solid red;
+	flex-flow: row wrap;
+
+}
+.in-block{
+	background-color: green;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	margin: 5px;
+	justify-content: center;
+	font-weight: bold;
+	color: white; 
+}
+.basis{
+	flex-basis: 100%;
+	height: 0;
+}
